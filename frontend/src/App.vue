@@ -1174,10 +1174,10 @@ function changePage(next) {
 <template>
   <main>
     <section v-if="appMode === 'home'" class="home-screen">
-      <h1>乒乓助手</h1>
+      <h1>球酒久开球查分</h1>
       <aside class="home-ad" aria-label="广告">
         <span>广告</span>
-        <img src="/images/pingpang-ad.jpg" alt="乒乓助手广告图片" />
+        <img src="/images/pingpang-ad.jpg" alt="球酒久开球查分广告图片" />
       </aside>
       <button class="home-entry" type="button" @click="enterMode('single')">
         <strong>查询选手战绩</strong>
