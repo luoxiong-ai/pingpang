@@ -1175,6 +1175,10 @@ function changePage(next) {
   <main>
     <section v-if="appMode === 'home'" class="home-screen">
       <h1>乒乓助手</h1>
+      <aside class="home-ad" aria-label="广告">
+        <span>广告</span>
+        <img src="/images/pingpang-ad.jpg" alt="乒乓助手广告图片" />
+      </aside>
       <button class="home-entry" type="button" @click="enterMode('single')">
         <strong>查询选手战绩</strong>
         <span>查看个人场次、积分趋势与年度积分</span>
